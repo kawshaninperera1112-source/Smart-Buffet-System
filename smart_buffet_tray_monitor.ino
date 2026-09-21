@@ -1,11 +1,4 @@
 #include "secrets.h"
-   #define BLYNK_TEMPLATE_ID   "YOUR_TEMPLATE_ID"
-   #define BLYNK_TEMPLATE_NAME "Buffet"
-   #define BLYNK_AUTH_TOKEN    "YOUR_BLYNK_AUTH_TOKEN"
-
-   char ssid[] = "YOUR_WIFI_SSID";
-   char pass[] = "YOUR_WIFI_PASSWORD";
-
 #include <WiFi.h>                             // Include WiFi library for ESP32
 #include <BlynkSimpleEsp32.h>                 // Include Blynk library for ESP32
 #include <Wire.h>                             // Include I2C communication library
