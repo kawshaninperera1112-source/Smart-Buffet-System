@@ -1,6 +1,10 @@
-#define BLYNK_TEMPLATE_ID "TMPL6gYOgJf_x"      // Define Blynk template ID
-#define BLYNK_TEMPLATE_NAME "Buffet"           // Define Blynk project name
-#define BLYNK_AUTH_TOKEN "k-H7XG9p86UTb3WNRbkou9fvrdpOIRH_"  // Fix: Removed trailing spaces
+#include "secrets.h"
+   #define BLYNK_TEMPLATE_ID   "YOUR_TEMPLATE_ID"
+   #define BLYNK_TEMPLATE_NAME "Buffet"
+   #define BLYNK_AUTH_TOKEN    "YOUR_BLYNK_AUTH_TOKEN"
+
+   char ssid[] = "YOUR_WIFI_SSID";
+   char pass[] = "YOUR_WIFI_PASSWORD";
 
 #include <WiFi.h>                             // Include WiFi library for ESP32
 #include <BlynkSimpleEsp32.h>                 // Include Blynk library for ESP32
